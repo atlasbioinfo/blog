@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang=en>
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://taolab.atlasbioinfo.com/rsvdb%2Fjs%2Ffornac.js"></script>
+    <link href="https://taolab.atlasbioinfo.com/rsvdb%2Fcss%2Ffornac.css" rel="stylesheet">
+</head>
+
+<body>
+    <style>
+        .errtitle {
+            font-size: 400px;
+            height: 500px;
+        }
+        
+        #errorStructure {
+            margin-bottom: -100px;
+            display: inline-block;
+        }
+        
+        .jumbotron {
+            text-align: center;
+        }
+    </style>
+    <div class="jumbotron">
+        <div class="row" style="height: 500px; display: inline;">
+            <span class='errtitle'>4</span>
+            <div id="errorStructure" style="height: 500px;width: 500px"></div>
+            <span class='errtitle '>4</span>
+        </div>
+        <div id='errmessage'>
+            <h2>Oops, page not found!</h2>
+            <p>You can drag the RNA structure above for fun, nevertheless :)</p>
+            <p>Alternatively, please visit other pages of mine in Github: <a href="https://github.com/atlasbioinfo">MyGithub</a>, <a href="https://atlasbioinfo.github.io/blog/">My blog</a>, <a href="https://atlasbioinfo.github.io/crispr-cbei/">CRISPR tools</a></p>
+        </div>
+    </div>
+
+    <script>
+        let errStructure = new fornac.FornaContainer("#errorStructure", {
+            'applyForce': true,
+            allowPanningAndZooming: false
+        });
+        let optionserr = {
+            'structure': "(((((............................................)))))",
+            'sequence': "CCGCCAATAGTAGGGAGAAGAGAGATATGAGAGAAGGAGAGAGAAGGAGGGCGG"
+        };
+        errStructure.addRNA(optionserr.structure, optionserr);
+    </script>
+
+
+</body>
+
+</html>
