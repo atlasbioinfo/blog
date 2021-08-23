@@ -2,7 +2,7 @@
 
 再复杂的理论也可以用简单的语言表示出来
 
- 
+
 ## 写在前面
 
 我曾经看《数学之美》这本书，有段句话印象很深刻：
@@ -76,6 +76,6 @@
 
 ![捐赠链接][1] 
 
-  [1]: https://atlasbioinfo.github.io/images/pay.jpg
- 
+[1]: https://pic.atlasbioinfo.com/images/pay.jpg	"pay"
+
 **最后，很感谢之前给我捐赠的朋友们，如果你们留下昵称、姓名或者邮箱，我会同步更新到博客对你们表示感谢。**

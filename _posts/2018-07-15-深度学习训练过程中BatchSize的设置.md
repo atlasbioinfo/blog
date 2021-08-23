@@ -10,7 +10,7 @@ categories:
 >* 不同Size下GPU和CPU的运算时间
 >* 到底需要设置多大的Size？
 
-*** 
+***
 
 先简单说一下我理解的Batch Size吧。
 
@@ -153,4 +153,4 @@ print (timeEnd-timeBeg)
 
 突然发现像我这种数据，量不大的，做深度学习，完全可以全部加载去找最优值啊~
 
-![博主简介](https://atlasbioinfo.github.io/images/logo.png)
+![博主简介](https://pic.atlasbioinfo.com/logo.png)
