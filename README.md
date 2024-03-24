@@ -6,3 +6,9 @@ https://github.com/atlasbioinfo/blogs
 blog.atlasbioinfo.com
 
 查看
+
+This blog repository has been deprecated and updated to the new VuePress framework.
+
+Please visit: https://github.com/atlasbioinfo/blogs or blog.atlasbioinfo.com
+
+to view the content.
